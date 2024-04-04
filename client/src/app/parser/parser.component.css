@@ -1,0 +1,69 @@
+:host {
+    display: block;
+    margin-top: 20px; 
+  }
+  
+  .file-input {
+    margin-bottom: 10px;
+  }
+  
+  .file-input input[type="file"] {
+    display: none; 
+  }
+  
+  .file-input label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-input label:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .parse-button {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    margin-top: auto; 
+    margin-right: 2.5%; 
+    margin-bottom: auto;
+    margin-left: 2.5%; 
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: lightcyan;
+  }
+
+  label {
+    text-decoration: bold;
+  }
+
+  .parse-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+  }
+
+  .parse-button:hover:enabled {
+    background-color: blue;
+    color: white;
+  }
+  
+  .parse-button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }

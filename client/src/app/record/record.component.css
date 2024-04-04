@@ -1,0 +1,15 @@
+:host {
+  display: inline-block; /* Ensure each record component appears inline */
+  border: 1px solid #ccc; /* Add border around each record */
+  padding: 10px; /* Add padding to create space between border and content */
+  margin-right: 10px; /* Add margin between records */
+  margin-bottom: 10px; /* Add margin between lines */
+}  
+
+.record {
+  display: inline-block;
+}
+  
+.record span {
+  margin-right: 10px;
+}

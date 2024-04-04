@@ -1,0 +1,21 @@
+.record-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: flex-start; /* Align items to the start of the container */
+}
+
+.flexItem {
+    flex: 0 0 auto; /* Let items grow or shrink as needed */
+    margin-right: 10px; /* Add margin between items */
+    margin-bottom: 10px; /* Add margin between lines */
+}
+
+button {
+  margin: 10px;
+  padding-right: 2%;
+}

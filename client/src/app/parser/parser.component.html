@@ -1,0 +1,13 @@
+<div class="container">
+    <span>
+        <label>Specification (.json)</label>
+        <input type="file" (change)="onSpecSelect($event)" accept=".json">
+    </span>
+    <span>
+        <label>Flat-file (.txt)</label>
+        <input type="file" (change)="onRecordFileSelect($event)" accept=".txt">
+    </span>
+    <button class="parse-button" (click)="parse()" [disabled]="this.flatfile == null || this.specfile == null">Parse</button>
+</div>
+
+<app-result-display [result]="parsedData" *ngIf="resultsProduced"></app-result-display>

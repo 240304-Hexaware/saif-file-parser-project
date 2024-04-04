@@ -1,0 +1,12 @@
+<p>Showing list of records...</p>
+<div class="flexContainer">
+        <app-record class="flexItem" *ngFor="let record of data" [record]="record"></app-record>
+</div>
+
+<select class="form-control" style="margin-top: 20px;" [(ngModel)]="selectedSpec" >
+        <option value="" selected disabled>Select a specification</option>
+        <option *ngFor="let spec of this.selections" [value]="spec">{{ spec }}</option>
+</select>
+    
+<button (click)="showSpecificRecords()">Show specific</button>
+<button (click)="showAllRecordsOfUser()">Show all</button>

@@ -1,0 +1,4 @@
+:host {
+    display: inline-block; /* Ensure each field component appears inline */
+    margin-right: 10px; /* Add margin between fields */
+}

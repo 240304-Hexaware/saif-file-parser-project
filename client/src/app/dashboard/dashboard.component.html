@@ -1,0 +1,11 @@
+<div class="navbar-container">
+    <span class="title">Welcome {{this.user}}</span>
+    <div class="nav-links">
+        <a routerLink="/dashboard/parser" routerLinkActive="active">Parser</a>
+        <a routerLink="/dashboard/records" routerLinkActive="active">Records</a>
+        <a routerLink="/dashboard/flat-files" routerLinkActive="active">Flat-files</a>
+        <a routerLink="/dashboard/specifications" routerLinkActive="active">Specifications</a>
+        <a (click)="onLogout()">Logout</a>
+    </div>
+  </div>
+  <router-outlet></router-outlet>

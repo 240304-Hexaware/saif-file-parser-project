@@ -1,0 +1,19 @@
+<h2>Registration</h2>
+<form action="#">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="username" [(ngModel)]="username" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="password" [(ngModel)]="password" required>
+  </div>
+  <div>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="repeat password" [(ngModel)]="repeatedPassword" required>
+  </div>
+  <button type="button" (click)="onSignUp()">Sign up</button>
+  <br> 
+  <br>
+  <button type="button" (click)="onSignIn()">Sign in</button>
+</form>

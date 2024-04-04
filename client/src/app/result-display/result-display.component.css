@@ -1,0 +1,30 @@
+.container {
+    margin-top: 2.5%; 
+    margin-right: 2.5%; 
+    margin-bottom: auto;
+    margin-left: 2.5%; 
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: lightcyan;
+    height: 50vh;
+}
+
+textarea {
+    width: 99%; 
+    height: calc(98% - 3px); 
+    resize: none; 
+    overflow:scroll; 
+    text-align: left;
+}
+
+.result-label {
+    margin-bottom: 2px; 
+    margin-right: auto;
+    margin-left: 0.5%;
+    text-align: left;
+}

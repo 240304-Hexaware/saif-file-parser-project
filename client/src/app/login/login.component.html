@@ -1,0 +1,15 @@
+<h2>Login</h2>
+<form action="#">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="username" [(ngModel)]="username" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="password" [(ngModel)]="password" required>
+  </div>
+  <button type="button" (click)="onLogin()">Login</button>
+  <br> 
+  <br>
+  <button type="button" (click)="onRegister()">Register</button>
+</form>
